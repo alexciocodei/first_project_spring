@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c61326ed-30aa-4c0d-9980-1a5a2f81d846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/production/WorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-application-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/production/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/production/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/production/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/production/Tool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/production/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/production/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tools.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/worker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/worker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/production/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/production/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/production/Tool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/production/Tool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/production/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/production/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/worker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/worker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="100" lean-forward="true" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="100" />
+              <caret line="22" column="100" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/worker.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/tools.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -112,11 +104,32 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/WorkerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/test-application-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WorkerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,11 +159,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Production/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/production/WorkerMotto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/production/Tool.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/worker.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/tools.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/production/WorkerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/production/Worker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/production/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/worker.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/WorkerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/test-application-context.xml" />
       </list>
     </option>
   </component>
@@ -220,6 +235,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="first_project_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_project_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_project_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_project_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -248,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.WorkerTest.getTools">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.production.Main" />
       <module name="first_project_spring" />
@@ -275,8 +304,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_project_spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.getTools" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_project_spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <option name="METHOD_NAME" value="getTools" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WorkerTest.getTools" />
+        <item itemvalue="JUnit.WorkerTest" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -292,12 +342,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555744554352</updated>
-      <workItem from="1555744557301" duration="12373000" />
+      <workItem from="1555744557301" duration="14812000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 15m 43s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 19m 48s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 21m 13s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 23m 08s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 23m 37s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTools - 2019.04.20 at 15h 27m 44s.xml">
+      <configuration name="WorkerTest.getTools" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTools - 2019.04.20 at 15h 30m 14s.xml">
+      <configuration name="WorkerTest.getTools" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12373000" />
+    <option name="totallyTimeSpent" value="14812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -320,7 +393,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38894907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40411702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/Tool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -368,6 +434,41 @@
           <folding>
             <element signature="method#toString#0;class#Tool#0" />
             <element signature="method#Tool#0;class#Tool#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#toString#0;class#Worker#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tools.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="100" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -384,24 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/tools.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/worker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/WorkerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -410,24 +497,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/Worker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/worker.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#toString#0;class#Worker#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/production/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-application-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="100" lean-forward="true" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
