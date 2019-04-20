@@ -34,5 +34,7 @@ public class WorkerTest
 {
     Assert.assertNotNull(worker);
     Assert.assertNotNull(worker.getTools());
+    Assert.assertEquals(worker.getProfession(), "Carpenter");
 }
+
 }
