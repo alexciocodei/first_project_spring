@@ -7,10 +7,11 @@
         <constructor-arg index="0" value="32"/>
         <constructor-arg index="1" value="Carpenter"/>
         <constructor-arg index="2" ref="workerMotto"/>
+        <property name="tools" ref="tools"/>
     </bean>
 
     <bean name="workerMotto" class="com.sda.production.WorkerMotto">
-        <constructor-arg value="No worker!"/>
+        <constructor-arg value="Cine nu munceste, moare!!!"/>
     </bean>
 
 

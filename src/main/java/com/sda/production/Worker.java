@@ -1,10 +1,36 @@
 package com.sda.production;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
+
 public class Worker
 {
     int age;
     String profession;
-    WorkerMotto workerMotto;
+    @Autowired WorkerMotto workerMotto;
+    private List<Tool> tools;
+
+    public List<Tool> getTools()
+    {
+        return tools;
+    }
+
+    public void setTools(List<Tool> tools)
+    {
+        this.tools = tools;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Worker{" +
+                "age=" + age +
+                ", profession='" + profession + '\'' +
+                ", workerMotto=" + workerMotto +
+                ", tools=" + tools +
+                '}';
+    }
 
     public Worker(int age, String profession, WorkerMotto workerMotto)
     {
@@ -12,7 +38,6 @@ public class Worker
         this.profession = profession;
         this.workerMotto = workerMotto;
     }
-
 
     public int getAge()
     {
