@@ -1,5 +1,7 @@
 package com.sda.production;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -8,8 +10,23 @@ public class Worker
 {
     int age;
     String profession;
-    @Autowired WorkerMotto workerMotto;
+    @Autowired
+    WorkerMotto workerMotto;
     private List<Tool> tools;
+    public static final Log LOGGER = LogFactory.getLog(Worker.class);
+
+    public void initialize() throws Exception
+    {
+//        System.out.println("Worker.initialize");
+        LOGGER.info("Worker.initialize");
+    }
+
+    public void destroy() throws Exception
+    {
+//        System.out.println("Worker.destroy");
+        LOGGER.info("Worker.destroy");
+    }
+
 
     public List<Tool> getTools()
     {

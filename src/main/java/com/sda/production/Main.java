@@ -16,12 +16,14 @@ public class Main
 
 //        System.out.println(testWorker.getAge());
 //        System.out.println(testWorker.getWorkerMotto().toString());
-//        System.out.println(testWorker);
+        System.out.println(testWorker);
+
+        ((ClassPathXmlApplicationContext)xmlApplicationContext).close();
 
 
         ApplicationContext annotationApplicationContext = new AnnotationConfigApplicationContext(WorkerConfig.class);
         WorkerMotto annotationWorkerMotto = annotationApplicationContext.getBean(WorkerMotto.class);
 
-        System.out.println(annotationWorkerMotto);
+//        System.out.println(annotationWorkerMotto);
     }
 }
